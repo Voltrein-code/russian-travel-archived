@@ -1,0 +1,7 @@
+.lead {
+  width: 77%;
+  display: grid;
+  grid-template-rows: repeat(5, min-content);
+
+  margin: 56px auto 0;
+}

@@ -1,0 +1,8 @@
+.lead__image-coordinate {
+  width: 95%;
+  grid-column: 1/2;
+  grid-row: 3/3;
+  z-index: 1;
+  justify-self: center;
+  margin-top: calc(9% + 64px);
+}
