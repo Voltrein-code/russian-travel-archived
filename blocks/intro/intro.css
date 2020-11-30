@@ -1,6 +1,5 @@
 .intro {
-  width: 690px;
-  align-self: start;
-  margin: 92px calc((100vw - 77%)/2) 0;
+  max-width: 690px;
+  margin: 92px calc((100% - 928px)/2) 0;
   font-size: 0.75rem;
 }
