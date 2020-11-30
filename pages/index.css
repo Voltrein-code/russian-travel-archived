@@ -5,6 +5,7 @@
 @import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/header/__link-container/header__link-container.css";
 @import "../blocks/header/__lang-link/header__lang-link.css";
+@import "../blocks/main/main.css";
 @import "../blocks/lead/lead.css";
 @import "../blocks/lead/__title/lead__title.css";
 @import "../blocks/lead/__subtitle/lead__subtitle.css";
