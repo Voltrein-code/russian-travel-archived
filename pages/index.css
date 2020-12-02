@@ -5,6 +5,7 @@
 @import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/header/__link-container/header__link-container.css";
 @import "../blocks/header/__lang-link/header__lang-link.css";
+@import "../blocks/header/__lang-link/_status/header__lang-link_status_active.css";
 @import "../blocks/main/main.css";
 @import "../blocks/lead/lead.css";
 @import "../blocks/lead/__title/lead__title.css";
@@ -34,5 +35,9 @@
 @import "../blocks/cover/__text-container/cover__text-container.css";
 @import "../blocks/cover/__title/cover__title.css";
 @import "../blocks/cover/__subtitle/cover__subtitle.css";
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__links/footer__links.css";
+@import "../blocks/footer/__link/footer_link.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";
 
 

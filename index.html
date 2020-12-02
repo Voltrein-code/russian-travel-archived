@@ -15,7 +15,7 @@
         <img src="./blocks/header/images/header-logo.svg" alt="Логотип" class="header__logo">
       </a>
       <div class="header__link-container">
-        <a href="#" class="header__lang-link" lang="en">Ru</a>
+        <a href="#" class="header__lang-link header__lang-link_status_active" lang="en">Ru</a>
         <a href="#" class="header__lang-link" lang="en">En</a>
       </div>
     </header>
@@ -81,7 +81,7 @@
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <h3 class="place__url-heading" lang="en">URL</h3>
-            <a href="https://nat-geo.ru" class="place__link" lang="en" target="_blank">National Georaphic</a>
+            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link" lang="en" target="_blank">National Georaphic</a>
           </div>
           <img src="./blocks/place/images/place-kolsky.jpg" alt="Кольский" class="place__image">
           <blockquote class="place__text-container">
@@ -99,7 +99,7 @@
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <h3 class="place__url-heading" lang="en">URL</h3>
-            <a href="https://www.facebook.com/altaiholiday" class="place__link" lang="en" target="_blank">Facebook</a>
+            <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link" lang="en" target="_blank">Facebook</a>
           </div>
           <img src="./blocks/place/images/place-altai.jpg" alt="Алтай" class="place__image">
           <blockquote class="place__text-container">
@@ -148,16 +148,26 @@
         </article>
       </section>
       <section class="cover">
-        <figure class="cover__background">
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__background" target="__blank">
           <img src="./blocks/cover/images/cover-trains.jpg" alt="Поезда" class="cover__image">
-          <figcaption class="cover__text-container">
+          <div class="cover__text-container">
             <h2 class="cover__title">До Байкала &laquo;на собаках&raquo;</h2>
             <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
               электричках.</p>
-          </figcaption>
-        </figure>
+            </div>
+        </a>
       </section>
     </main>
+    <footer class="footer">
+      <nav class="footer__links">
+        <a href="#" class="footer__link">Карты</a>
+        <a href="#" class="footer__link">Погода</a>
+        <a href="#" class="footer__link">Расписание</a>
+        <a href="#" class="footer__link">Календарь</a>
+        <a href="#" class="footer__link">Путешествия</a>
+      </nav>
+      <p class="footer__copyright">&#169; 2020. Евгений Шальнев</p>
+    </footer>
   </div>
 </body>
 

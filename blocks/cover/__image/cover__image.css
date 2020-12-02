@@ -3,4 +3,9 @@
   opacity: 0.7;
   grid-row: 1/2;
   grid-column: 1/2;
+  transition: opacity 0.7s linear;
+}
+
+.cover__image:hover {
+  opacity: 0.3;
 }

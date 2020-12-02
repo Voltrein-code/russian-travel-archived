@@ -2,4 +2,9 @@
   font-size: 1.125rem;
   line-height: 1.22;
   color: white;
+  transition: opacity 0.5s linear;
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }

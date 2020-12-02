@@ -1,4 +1,6 @@
 .cover__background {
   display: grid;
   margin: 0;
+  text-decoration: none;
+  color: white;
 }
