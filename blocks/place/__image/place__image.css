@@ -1,4 +1,9 @@
 .place__image {
   width: 100%;
+  transition: opacity 0.5s linear, box-shadow 0.5s linear;
 }
 
+.place__image:hover {
+  opacity: 0.8;
+  box-shadow: 1px 1px 2px black, 0 0 2em white;
+}
