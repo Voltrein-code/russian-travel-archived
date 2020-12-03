@@ -4,3 +4,17 @@
   display: grid;
   grid-template-columns: max-content 1fr;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 90vw;
+    margin: 88px auto 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    margin: 64px auto 0;
+    grid-template-columns: max-content;
+  }
+}

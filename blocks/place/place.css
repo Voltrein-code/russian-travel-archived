@@ -1,7 +1,33 @@
 .place {
-  padding-top: 80px;
-  width: 100%;
+  margin: 80px auto 0;
+  width: 76.875vw;
   display: grid;
-  grid-template-columns: min-content 1fr;
+  grid-template-columns: 35.9375vw 37.8125vw;
   gap: 48px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    width: 90.625vw;
+    grid-template-columns: 42.96875vw 47.265625vw;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    margin: 73px auto 0;
+    width: 93.75vw;
+    grid-template-columns: 340px 352px;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .place {
+    margin: 49px auto 0;
+    width: 100vw;
+    grid-template-columns: 100vw;
+    gap: 32px;
+  }
 }

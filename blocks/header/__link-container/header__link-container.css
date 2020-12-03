@@ -1,6 +1,9 @@
 .header__link-container {
+  justify-self: end;
   display: grid;
   align-items: center;
   grid-template-columns: min-content min-content;
   gap: 18px;
+  list-style-type: none;
+  padding: 0;
 }

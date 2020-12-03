@@ -1,8 +1,25 @@
 .header {
-  width: calc(100vw - 48px * 2);
-  min-height: 52px;
-  padding-top: 28px;
-  margin: auto;
+  width: 92.5vw;
+  margin: 28px auto 0;
   display: grid;
-  grid-template-columns: 1fr min-content;
+  grid-template-columns: max-content 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 90.625vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 93.75vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    width: 90vw;
+    margin: 16px auto 0;
+  }
 }

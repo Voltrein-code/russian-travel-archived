@@ -8,16 +8,17 @@
   <title></title>
 </head>
 
-<body>
-  <div class="page">
+<body class="page">
     <header class="header">
-      <a href="#" class="header__logo-container">
-        <img src="./blocks/header/images/header-logo.svg" alt="Логотип" class="header__logo">
-      </a>
-      <div class="header__link-container">
-        <a href="#" class="header__lang-link header__lang-link_status_active" lang="en">Ru</a>
-        <a href="#" class="header__lang-link" lang="en">En</a>
-      </div>
+      <a href="#" class="header__logo"></a>
+      <ul class="header__link-container">
+        <li>
+          <a href="#" class="header__lang-link header__lang-link_status_active" lang="en">Ru</a>
+        </li>
+        <li>
+          <a href="#" class="header__lang-link" lang="en">En</a>
+        </li>
+      </ul>
     </header>
     <main class="main">
       <section class="lead">
@@ -81,7 +82,8 @@
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <h3 class="place__url-heading" lang="en">URL</h3>
-            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link" lang="en" target="_blank">National Georaphic</a>
+            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link" lang="en"
+              target="_blank">National Georaphic</a>
           </div>
           <img src="./blocks/place/images/place-kolsky.jpg" alt="Кольский" class="place__image">
           <blockquote class="place__text-container">
@@ -99,7 +101,8 @@
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <h3 class="place__url-heading" lang="en">URL</h3>
-            <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link" lang="en" target="_blank">Facebook</a>
+            <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link" lang="en"
+              target="_blank">Facebook</a>
           </div>
           <img src="./blocks/place/images/place-altai.jpg" alt="Алтай" class="place__image">
           <blockquote class="place__text-container">
@@ -148,27 +151,35 @@
         </article>
       </section>
       <section class="cover">
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__background" target="__blank">
-          <img src="./blocks/cover/images/cover-trains.jpg" alt="Поезда" class="cover__image">
-          <div class="cover__text-container">
-            <h2 class="cover__title">До Байкала &laquo;на собаках&raquo;</h2>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-              электричках.</p>
-            </div>
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__background" target="_blank">
+          <h2 class="cover__title">До Байкала &laquo;на собаках&raquo;</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+            электричках.</p>
         </a>
       </section>
     </main>
     <footer class="footer">
-      <nav class="footer__links">
-        <a href="#" class="footer__link">Карты</a>
-        <a href="#" class="footer__link">Погода</a>
-        <a href="#" class="footer__link">Расписание</a>
-        <a href="#" class="footer__link">Календарь</a>
-        <a href="#" class="footer__link">Путешествия</a>
+      <nav class="footer__menu">
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">Карты</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Погода</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Расписание</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Календарь</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Путешествия</a>
+          </li>
+        </ul>
       </nav>
       <p class="footer__copyright">&#169; 2020. Евгений Шальнев</p>
     </footer>
-  </div>
 </body>
 
 </html>
