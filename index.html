@@ -10,6 +10,7 @@
 </head>
 
 <body class="page">
+
   <header class="header">
     <a href="#" class="header__logo" target="_top"></a>
     <ul class="header__link-container">
@@ -25,8 +26,12 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img src="./blocks/lead/images/lead__image.jpg" alt="Координаты и каюта поезда" class="lead__image">
-      <p class="lead__caption">ваша полка — верхняя</p>
+      <figure class="lead__figure">
+        <img src="./blocks/lead/images/lead__image.jpg" alt="Координаты и каюта поезда" class="lead__image">
+        <figcaption>
+          <p class="lead__caption">ваша полка — верхняя</p>
+        </figcaption>
+      </figure>
     </section>
     <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -38,11 +43,11 @@
         километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
       </article>
       <ul class="intro__list">
-        <li class="intro__list intro__list_item">Часовых поясов 11</li>
-        <li class="intro__list intro__list_item">Объектов природного наследия ЮНЕСКО 12</li>
-        <li class="intro__list intro__list_item">Объектов культурного наследия ЮНЕСКО 16</li>
-        <li class="intro__list intro__list_item">Природных заповедников 105</li>
-        <li class="intro__list intro__list_item">Аэропортов 241</li>
+        <li class="intro__list_item">Часовых поясов <span class="intro__font-light">11</span></li>
+        <li class="intro__list_item">Объектов природного наследия ЮНЕСКО <span class="intro__font-light">12</span></li>
+        <li class="intro__list_item">Объектов культурного наследия ЮНЕСКО <span class="intro__font-light">16</span></li>
+        <li class="intro__list_item">Природных заповедников <span class="intro__font-light">105</span></li>
+        <li class="intro__list_item">Аэропортов <span class="intro__font-light">241</span></li>
       </ul>
     </section>
     <section class="photo-grid">

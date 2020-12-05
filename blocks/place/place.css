@@ -1,9 +1,16 @@
 .place {
   margin: 80px auto 0;
-  width: 76.875vw;
   display: grid;
-  grid-template-columns: 35.9375vw 37.8125vw;
+  grid-template-columns: calc(1280px/100*35.9375) calc(1280px/100*37.8125);
   gap: 48px 40px;
+  width: 76.875%;
+}
+
+@media screen and (max-width: 1280px) {
+  .place {
+    width: 76.875vw;
+    grid-template-columns: 35.9375vw 37.8125vw;
+  }
 }
 
 @media screen and (max-width: 1024px) {
