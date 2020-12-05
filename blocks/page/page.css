@@ -3,6 +3,7 @@
   max-width: 1280px;
   min-width: 320px;
   background-color: #2A2C2F;
+  background-size: cover;
   color: white;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
