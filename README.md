@@ -11,7 +11,7 @@
 
 Мой первый учебный проект на GitHub.
 
-**Ссылка на проект в gh-pages: [Научиться учиться](https://voltrein-code.github.io/russian-travel/)**
+**Ссылка на проект в gh-pages: [Путешествие по России](https://voltrein-code.github.io/russian-travel/)**
 
 ![Watch the video](./public/preview.gif)
 
