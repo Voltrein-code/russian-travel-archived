@@ -1,5 +1,5 @@
 <h1 align="center">
-    Путешествие по России
+    Путешествия по России
 </h1>
 <p align="center">
     <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-blue" />
@@ -7,11 +7,11 @@
     <img alt="Made by: Voltrein" src="https://img.shields.io/badge/made%20by-Voltrein--code-blue" />
 </p>
 
-## «Путешествие по России» - проектная работа по профессии веб-разработчик [Яндекс Практикум](https://praktikum.yandex.ru "Яндекс Практикум")
+## «Путешествия по России» - проектная работа по профессии веб-разработчик [Яндекс Практикум](https://praktikum.yandex.ru "Яндекс Практикум")
 
 Мой первый учебный проект на GitHub.
 
-**Ссылка на проект в gh-pages: [Путешествие по России](https://voltrein-code.github.io/russian-travel/)**
+**Ссылка на проект в gh-pages: [Путешествия по России](https://voltrein-code.github.io/russian-travel/)**
 
 ![Watch the video](./public/preview.gif)
 
